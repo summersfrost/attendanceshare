@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\User\Documents\3rd Year\CompesaAutomatedEventsHandler - Copy\dist\CompesaAutomatedEventsHandler.jar</jar>
+  <outfile>C:\Users\User\Documents\3rd Year\CompesaAutomatedEventsHandler - Copy\dist\Attendance System.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon></icon>
+  <classPath>
+    <mainClass>compesaautomatedeventshandler.CompesaAutomatedEventsHandler</mainClass>
+    <cp>lib/AbsoluteLayout.jar</cp>
+    <cp>lib/Webcam.jar</cp>
+    <cp>lib/barcode.jar</cp>
+    <cp>lib/beansbinding-1.2.1.jar</cp>
+    <cp>lib/bridj-0.7.0.jar</cp>
+    <cp>lib/core-3.3.0.jar</cp>
+    <cp>lib/datechooser.jar</cp>
+    <cp>lib/itextpdf-5.5.9.jar</cp>
+    <cp>lib/javase-3.3.0.jar</cp>
+    <cp>lib/jcalendar-1.4.jar</cp>
+    <cp>lib/jquery-3.7.0.jar</cp>
+    <cp>lib/mysql-connector-java-5.1.23-bin.jar</cp>
+    <cp>lib/qrgen-1.0.jar</cp>
+    <cp>lib/slf4j-api-1.7.2.jar</cp>
+    <cp>lib/testNumerical.jar</cp>
+    <cp>lib/zxing-core-1.7.jar</cp>
+    <cp>lib/zxing-j2se-1.7.jar</cp>
+    <cp>lib/TimingFramework-0.55.jar</cp>
+    <cp>lib/swing-time-picker.jar</cp>
+  </classPath>
+  <jre>
+    <path>%JAVA_HOME%;%PATH%</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion>1.4.0</minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+</launch4jConfig>
